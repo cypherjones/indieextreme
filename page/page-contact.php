@@ -19,10 +19,10 @@
             <div class="form-sub-title">
               <?php the_field('sub_title', 13) ?>
             </div>
-            <div class="form-map">
+            <!-- <div class="form-map">
               <?php $location = get_field('map') ?>
               <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

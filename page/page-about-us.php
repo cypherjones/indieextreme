@@ -6,7 +6,7 @@
       <!-- latest post title -->
       <div class="col-xs-12">
         <div class="page-title">
-          <h4>About Us</h4> <!-- wire up -->
+          <h4><?php the_title( ); ?></h4> <!-- wire up -->
         </div>
       </div>
       <!-- latest post -->
@@ -36,6 +36,18 @@
           </div>
           <div class="ceo-message">
             <?php the_field('ceo_message') ?>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="ie-opps">
+          <div class="page-title">
+            <h4>iE Opportunities</h4>
+          </div>
+          <div class="content-box">
+            <div class="ie-opp-title">
+              <a href="<?php the_field('opportunity_files',7) ?>"><?php the_field('opportunity_title',7) ?></a>
+            </div>
           </div>
         </div>
       </div>

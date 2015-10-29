@@ -92,7 +92,7 @@
            <?php endif; ?>
            <?php if ( !empty($secTwoImage) ) : ?>
             <div class="press-cta-image">
-              <a href="<?= $secTwoUrl; ?>">
+              <a href="<?= $secTwoURL; ?>">
                 <img src="<?= $secTwoImage; ?>" alt="Call to Action Image">
               </a>
             </div>

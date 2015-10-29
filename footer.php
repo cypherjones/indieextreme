@@ -70,7 +70,7 @@
                       </h4>
                     </div>
                     <div class="btn">
-                      <a href="">
+                      <a href="mailto:kathyd@indieextreme.com">
                         Get Started
                       </a>
                     </div>
